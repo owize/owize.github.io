@@ -15,13 +15,13 @@ header{
   box-shadow: 0px 6px 18px 0px black;
   position: relative;
   min-width: 316px;
+  z-index: 1;
 }
 
 .logo{
   font-size: 25px;
   color: #FF3333;
   text-shadow: 3px 2px black;
-  font-family: 'Roboto', sans-serif;
 }
 
 a{
@@ -30,7 +30,6 @@ a{
   text-decoration: none;
   padding: 25px;
   text-shadow: 2px 1px black;
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
@@ -53,6 +52,7 @@ main{
 
 .box:hover{
   transform: scale(1.05);
+  opacity: 1;
 }
 
 img{
@@ -60,6 +60,7 @@ img{
   height: 100%;
   border-radius: 7px;
   min-width: 150px;
+  opacity: 0.8;
 }
 
 footer{
