@@ -48,6 +48,7 @@ main{
   margin: 20px;
   flex-grow: 1;
   transition: transform .5s;
+  opacity: 0.8;
 }
 
 .box:hover{
@@ -60,7 +61,6 @@ img{
   height: 100%;
   border-radius: 7px;
   min-width: 150px;
-  opacity: 0.8;
 }
 
 footer{
